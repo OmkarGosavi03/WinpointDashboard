@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Online Evaluation System</title>
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8="crossorigin="anonymous"></script>
+	<meta charset="utf-8">
+	<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+	<link rel="stylesheet" href="Online-Evaluation-System.css">
+	<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<!-- <script type="text/javascript" src="Online-Evaluation-System.js"> -->
+	</script>
+</head>
+<body>
+	<div class="container-fluid">
+		<div class="row test">
+			<div class="col-sm-8 col-md-8 col-lg-8">
+				<div class="question">
+					<h4>Question:</h4>
+				</div>
+				<!-- Options -->
+				<div class="options">
+					<label class="container">
+						<input type="checkbox" checked="checked">
+						<span>Option One</span>
+					</label>
+
+					<label class="container">
+						<input type="checkbox">
+						<span>Option Two</span>
+					</label>
+
+					<label class="container">
+						<input type="checkbox">
+						<span>Option Three</span>
+					</label>
+
+					<label class="container">
+						<input type="checkbox">
+						<span>Option Four</span>
+					</label>
+				</div>
+				<!-- End Optons -->
+				<!-- Buttons -->
+				<div class="button-row ">
+					<input type="button" class="btn btn-info" name="previous" value="previous" id="prev">
+					<input type="button" class="btn btn-info" name="next" value="Next" id="nex">
+					<input type="button" class="btn btn-warning" name="review" value="Review" id="rev">
+				</div>
+				<!-- End Buttons -->
+			</div>
+			<!-- Right Side -->
+			<div class="col-sm-3 col-md-3 col-lg-3 all-quest">
+				<div class="all-questions">
+					<div class="clock">
+						<button type="button" class="btn btn-outline-dark" name="clock">Timer</button>
+					</div><br>
+					<div class="divider"></div>
+					<div class="questions-list">
+						<h5>Questions:</h5>
+						<div class="button-container">
+
+							<div class="button-row1 " >
+									<button  class="btn btn-dark" >1</button><button class="btn btn-dark" >2</button><button class="btn btn-dark" >3</button><button class="btn btn-dark" >4</button><button class="btn btn-dark" >5</button>
+							</div>
+							<div class="button-row2">
+									<button class="btn btn-dark" >6</button><button class="btn btn-dark" >7</button><button class="btn btn-dark" >8</button><button class="btn btn-dark" >9</button><button class="btn btn-dark" >10</button>
+							</div>
+							<div class="button-row3">
+									<button class="btn btn-dark" >11</button><button class="btn btn-dark" >12</button><button class="btn btn-dark" >13</button><button class="btn btn-dark" >14</button><button class="btn btn-dark" >15</button>
+							</div>
+							<div class="button-row4">
+								<button class="btn btn-dark" >16</button><button class="btn btn-dark" >17</button><button class="btn btn-dark" >18</button><button class="btn btn-dark" >19</button><button class="btn btn-dark" >20</button>
+							</div>
+							<div class="button-row5">
+								<button class="btn btn-dark" >21</button><button class="btn btn-dark" >22</button><button class="btn btn-dark" >23</button><button class="btn btn-dark" >24</button><button class="btn btn-dark" >25</button>
+							</div>
+							<div class="button-row6">
+								<button class="btn btn-dark" >26</button><button class="btn btn-dark" >27</button><button class="btn btn-dark" >28</button><button class="btn btn-dark" >29</button><button class="btn btn-dark" >30</button>
+							</div>
+							<div class="button-row7">
+								<button class="btn btn-dark" >31</button><button class="btn btn-dark" >32</button><button class="btn btn-dark" >33</button><button class="btn btn-dark" >34</button><button class="btn btn-dark" >35</button>
+							</div>
+							<div class="button-row8">
+								<button class="btn btn-dark" >36</button><button class="btn btn-dark" >37</button><button class="btn btn-dark" >38</button><button class="btn btn-dark" >39</button><button class="btn btn-dark" >40</button>
+							</div>
+						<!-- End Button List -->
+					</div>
+						<!-- Submit button -->
+						<div class="button-submit">
+							<button type="button" class="btn btn-danger" value="submit">Submit</button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- End Right Side -->
+		</div>
+	</div>
+</body>
+</html>
